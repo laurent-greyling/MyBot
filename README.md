@@ -1,5 +1,14 @@
 # MyBot
-Starting with Microsoft Bot Framework - [here](https://dev.botframework.com/)
+
+Bots are not a new thing in the world, but lately it has become the best new thing since toast. To create a new bot is fairly simple with [Microsoft's Bot Framework](https://dev.botframework.com/). Here you can find all documentation to start.
+
+For my first bot, and to keep track of the process I will follow and use documents available in the documentation section of [Microsoft's Bot Framework](https://dev.botframework.com/).
+
+To make it easier I will setout step by step how I followed and build this bot.
+
+##Getting Started
+
+To get started with the bot framework download and install the [Bot Application template](http://aka.ms/bf-bc-vstemplate)
 
 [Getting started](https://docs.botframework.com/en-us/csharp/builder/sdkreference/)
 
