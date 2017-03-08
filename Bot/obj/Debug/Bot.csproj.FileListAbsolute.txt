@@ -1,0 +1,45 @@
+E:\R&D\MyBot\Bot\bin\Bot Application1.dll.config
+E:\R&D\MyBot\Bot\bin\Bot Application1.dll
+E:\R&D\MyBot\Bot\bin\Bot Application1.pdb
+E:\R&D\MyBot\Bot\bin\Autofac.dll
+E:\R&D\MyBot\Bot\bin\Chronic.dll
+E:\R&D\MyBot\Bot\bin\Microsoft.Bot.Builder.dll
+E:\R&D\MyBot\Bot\bin\Microsoft.Bot.Connector.dll
+E:\R&D\MyBot\Bot\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+E:\R&D\MyBot\Bot\bin\Microsoft.Rest.ClientRuntime.dll
+E:\R&D\MyBot\Bot\bin\Microsoft.WindowsAzure.Configuration.dll
+E:\R&D\MyBot\Bot\bin\Newtonsoft.Json.dll
+E:\R&D\MyBot\Bot\bin\System.IdentityModel.Tokens.Jwt.dll
+E:\R&D\MyBot\Bot\bin\System.Net.Http.Formatting.dll
+E:\R&D\MyBot\Bot\bin\System.Web.Http.dll
+E:\R&D\MyBot\Bot\bin\System.Web.Http.WebHost.dll
+E:\R&D\MyBot\Bot\bin\Autofac.xml
+E:\R&D\MyBot\Bot\bin\Microsoft.Bot.Builder.xml
+E:\R&D\MyBot\Bot\bin\Microsoft.Bot.Connector.xml
+E:\R&D\MyBot\Bot\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+E:\R&D\MyBot\Bot\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+E:\R&D\MyBot\Bot\bin\Microsoft.WindowsAzure.Configuration.xml
+E:\R&D\MyBot\Bot\bin\Newtonsoft.Json.xml
+E:\R&D\MyBot\Bot\bin\System.IdentityModel.Tokens.Jwt.pdb
+E:\R&D\MyBot\Bot\bin\System.IdentityModel.Tokens.Jwt.xml
+E:\R&D\MyBot\Bot\bin\System.Net.Http.Formatting.xml
+E:\R&D\MyBot\Bot\bin\System.Web.Http.xml
+E:\R&D\MyBot\Bot\bin\System.Web.Http.WebHost.xml
+E:\R&D\MyBot\Bot\bin\ar\Microsoft.Bot.Builder.resources.dll
+E:\R&D\MyBot\Bot\bin\en\Microsoft.Bot.Builder.resources.dll
+E:\R&D\MyBot\Bot\bin\es\Microsoft.Bot.Builder.resources.dll
+E:\R&D\MyBot\Bot\bin\fa\Microsoft.Bot.Builder.resources.dll
+E:\R&D\MyBot\Bot\bin\fr\Microsoft.Bot.Builder.resources.dll
+E:\R&D\MyBot\Bot\bin\ja\Microsoft.Bot.Builder.resources.dll
+E:\R&D\MyBot\Bot\bin\ru\Microsoft.Bot.Builder.resources.dll
+E:\R&D\MyBot\Bot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+E:\R&D\MyBot\Bot\obj\Debug\Bot.csprojResolveAssemblyReference.cache
+E:\R&D\MyBot\Bot\obj\Debug\Bot Application1.dll
+E:\R&D\MyBot\Bot\obj\Debug\Bot Application1.pdb
+E:\R&D\MyBot\Bot\bin\HtmlAgilityPack.dll
+E:\R&D\MyBot\Bot\bin\Microsoft.Bot.Builder.Autofac.dll
+E:\R&D\MyBot\Bot\bin\HtmlAgilityPack.pdb
+E:\R&D\MyBot\Bot\bin\HtmlAgilityPack.xml
+E:\R&D\MyBot\Bot\bin\Microsoft.Bot.Builder.Autofac.xml
+E:\R&D\MyBot\Bot\bin\cs\Microsoft.Bot.Builder.resources.dll
+E:\R&D\MyBot\Bot\bin\de-dE\Microsoft.Bot.Builder.resources.dll
