@@ -10,6 +10,7 @@ Revisit [this](https://docs.botframework.com/en-us/csharp/builder/sdkreference/d
 
 
 Training
+
 [Javascript example](https://mva.microsoft.com/en-US/training-courses/getting-started-with-bots-16759?l=2zTAb2HyC_3504668937)
 
 [C# example](https://www.pluralsight.com/courses/microsoft-bot-framework-getting-started) - need subscription
