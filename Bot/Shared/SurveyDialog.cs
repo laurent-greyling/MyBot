@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
+using Bot.Models;
 using HtmlAgilityPack;
 using Microsoft.Bot.Builder.Dialogs;
 using Microsoft.Bot.Connector;
@@ -10,7 +11,7 @@ using Microsoft.Bot.Connector;
 namespace Bot.Shared
 {
     [Serializable]
-    public class SurveyDialog : IDialog<object>
+    public partial class SurveyDialog : IDialog<object>
     {
         /// <summary>
         /// Here you need your link to the Nfield survey you created in your domain/ Link here currently is to a demo domain
@@ -22,7 +23,9 @@ namespace Bot.Shared
         public async Task StartAsync(IDialogContext context)
         {
             var client = new HttpClient();
+            //response from the Nfield interviewing system
             var response = await client.GetAsync(LiveLink);
+
             var capturedScreen = await CaptureScreen(response);
 
             context.UserData.SetValue("screen", capturedScreen);
@@ -77,6 +80,11 @@ namespace Bot.Shared
             context.Wait(MessageReceivedAsync);
         }
 
+        /// <summary>
+        /// Rendered question screen
+        /// </summary>
+        /// <param name="response"></param>
+        /// <returns></returns>
         private static async Task<CapturedScreen> CaptureScreen(HttpResponseMessage response)
         {
             var screen = await response.Content.ReadAsStringAsync();
@@ -119,22 +127,6 @@ namespace Bot.Shared
                 RequestUri = response.RequestMessage.RequestUri,
                 HistoryOrder = historyOrder
             };
-        }
-
-        private class CapturedScreen
-        {
-            public string ScreenId { get; set; }
-            public string QuestionText { get; set; }
-            public List<string> Options = new List<string>();
-            public List<Category> Categories = new List<Category>();
-            public Uri RequestUri { get; set; }
-            public string HistoryOrder { get; set; }
-        }
-
-        private class Category
-        {
-            public string Name { get; set; }
-            public string Value { get; set; }
         }
     }
 }

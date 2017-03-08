@@ -2,6 +2,7 @@
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
+using Bot.Shared;
 using Microsoft.Bot.Builder.Dialogs;
 using Microsoft.Bot.Connector;
 
@@ -18,7 +19,7 @@ namespace Bot.Controllers
         {
             if (activity != null && activity.GetActivityType() == ActivityTypes.Message)
             {
-                await Conversation.SendAsync(activity, () => new Shared.SurveyDialog());
+                await Conversation.SendAsync(activity, () => new SurveyDialog());
             }
             else
             {
