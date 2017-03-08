@@ -8,7 +8,7 @@ To make it easier I will setout step by step how I followed and build this bot.
 
 ##Getting Started
 
-To get started with the bot framework download and install the [Bot Application template](http://aka.ms/bf-bc-vstemplate)
+To get started with the bot framework download and install the [Bot Application template](http://aka.ms/bf-bc-vstemplate) and save the zip file to your Visual Studio templates directory which is traditionally in "%USERPROFILE%\Documents\Visual Studio <year>\Templates\ProjectTemplates\Visual C#\"
 
 [Getting started](https://docs.botframework.com/en-us/csharp/builder/sdkreference/)
 
