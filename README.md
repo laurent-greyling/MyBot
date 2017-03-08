@@ -37,13 +37,12 @@ When working with the emulator with a bot running locally, you need:
 This will only work with the emulator running locally; in the cloud you would instead have to specify the appropriate URL and authentication values.
 
 
-
-
-Revisit [this](https://docs.botframework.com/en-us/csharp/builder/sdkreference/dialogs.html) later, this is for dialog and not the frame...
-
-
 ##Training links
 
 [Javascript example](https://mva.microsoft.com/en-US/training-courses/getting-started-with-bots-16759?l=2zTAb2HyC_3504668937)
 
 [C# example](https://www.pluralsight.com/courses/microsoft-bot-framework-getting-started) - need subscription
+
+
+
+Revisit [this](https://docs.botframework.com/en-us/csharp/builder/sdkreference/dialogs.html) later, this is for dialog and not the frame...
