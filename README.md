@@ -8,9 +8,9 @@ To make it easier I will setout step by step how I followed and build this bot.
 
 ##Getting Started
 
-To get started with the bot framework download and install the [Bot Application template](http://aka.ms/bf-bc-vstemplate) and save the zip file to your Visual Studio templates directory which is traditionally in "%USERPROFILE%\Documents\Visual Studio <year>\Templates\ProjectTemplates\Visual C#\"
+To get started with the bot framework download and install the [Bot Application template](http://aka.ms/bf-bc-vstemplate) and save the zip file to your Visual Studio templates directory which is traditionally in "%USERPROFILE%\Documents\Visual Studio `<year>`\Templates\ProjectTemplates\Visual C#\"
 
-[Getting started](https://docs.botframework.com/en-us/csharp/builder/sdkreference/)
+Now you can create a new C# bot application. This application is a simple echo bot, and will echo back what ever the user type in as communication. For more details see [Getting started documentation](https://docs.botframework.com/en-us/csharp/builder/sdkreference/).
 
 It is always nice to look at some code samples when starting a new project. For those moments you get stuck you can review the samples [here](https://github.com/Microsoft/BotBuilder/tree/master/CSharp)
 
