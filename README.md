@@ -36,6 +36,9 @@ When working with the emulator with a bot running locally, you need:
  
 This will only work with the emulator running locally; in the cloud you would instead have to specify the appropriate URL and authentication values.
 
+Debugging this specific survey bot will have the following result:
+
+![botsurvey](https://cloud.githubusercontent.com/assets/17876815/23709927/4dd05fac-041b-11e7-9117-cd00c256cbd2.gif)
 
 ##Training links
 
