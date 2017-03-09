@@ -67,18 +67,38 @@ namespace Bot.Shared
                 if (capturedScreen == null)
                 {
                     await context.PostAsync("Thank you");
-                    context.Done("we're done");
-                    return;
+                    PromptDialog.Confirm(context, InterviewDone, "Have I answered all your questions?", promptStyle: PromptStyle.None);
                 }
-                context.UserData.SetValue("screen", capturedScreen);
+                else
+                {
+                    context.UserData.SetValue("screen", capturedScreen);
 
-                var replyMessage = context.MakeMessage();
-                replyMessage.AddHeroCard(capturedScreen.QuestionText, capturedScreen.Options);
+                    var replyMessage = context.MakeMessage();
+                    replyMessage.AddHeroCard(capturedScreen.QuestionText, capturedScreen.Options);
 
-                await context.PostAsync(replyMessage);
+                    await context.PostAsync(replyMessage);
+
+                    context.Wait(MessageReceivedAsync);
+                }
             }
-            context.Wait(MessageReceivedAsync);
         }
+
+        public async Task InterviewDone(IDialogContext context, IAwaitable<bool> confirmation)
+        {
+            if (await confirmation)
+            {
+                //TODO: if new conversation is started, start again, currently this will not initiate a new conversation
+                await context.PostAsync("Seems we are done");
+                await context.PostAsync("Enjoy the rest of your day");
+            }
+            else
+            {
+                await context.PostAsync("O, let me restart the interview");
+                //TODO: find a better way to do this, don't want to call startasync ourselves
+                await StartAsync(context);
+            }
+        }
+
 
         /// <summary>
         /// Rendered question screen
