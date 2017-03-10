@@ -1,6 +1,6 @@
 # MyBot
 
-Bots are not a new thing in the world, but lately it has become the best new thing since toast. To create a new bot is fairly simple with [Microsoft's Bot Framework](https://dev.botframework.com/). Here you can find all documentation to start.
+Bots are not a new thing in the world, but lately it has become the best new thing since toast. To create a new bot is fairly simple with [Microsoft's Bot Framework](https://dev.botframework.com/).
 
 For my first bot I will attempt to have a bot do an interview based on the [Nfield system](http://niposoftware.com/), and to keep track of the process I will follow and use documents available in the documentation section of [Microsoft's Bot Framework](https://dev.botframework.com/).
 
