@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
+using Bot.Controllers;
 using Bot.Models;
 using HtmlAgilityPack;
 using Microsoft.Bot.Builder.Dialogs;
@@ -87,9 +88,11 @@ namespace Bot.Shared
         {
             if (await confirmation)
             {
-                //TODO: if new conversation is started, start again, currently this will not initiate a new conversation
+                //TODO: find way to properly start new conversation. this will do it in weird way
                 await context.PostAsync("Seems we are done");
                 await context.PostAsync("Enjoy the rest of your day");
+                await context.FlushAsync(context.CancellationToken);
+                context.Wait(MessageReceivedAsync);
             }
             else
             {
