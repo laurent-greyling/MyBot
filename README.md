@@ -4,8 +4,6 @@ Bots are not a new thing in the world, but lately it has become the best new thi
 
 For my first bot I will attempt to have a bot do an interview based on the [Nfield system](http://niposoftware.com/), and to keep track of the process I will follow and use documents available in the documentation section of [Microsoft's Bot Framework](https://dev.botframework.com/).
 
-To make it easier I will setout step by step how I followed and build this bot.
-
 ##Getting Started
 
 To get started with the bot framework download and install the [Bot Application template](http://aka.ms/bf-bc-vstemplate) and save the zip file to your Visual Studio templates directory which is traditionally in "%USERPROFILE%\Documents\Visual Studio `<year>`\Templates\ProjectTemplates\Visual C#\"
